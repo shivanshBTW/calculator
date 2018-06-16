@@ -1,0 +1,21 @@
+body{
+    background-color: grey!important;
+}
+.input-area{
+    margin-top: 10px
+}
+nav h1{
+    color: white;
+}
+.input-boxes{
+    width: 100%;
+}
+.resultArea{
+    background-color: white;   
+}
+.btn-group{
+    margin-right: 5px;
+}
+.operationButtons button{
+    font-size: 30px;
+}
