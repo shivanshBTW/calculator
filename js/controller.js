@@ -9,6 +9,7 @@ function bindEvents(){
     for(button of buttons){
         button.addEventListener('click',compute)
     }
+    document.querySelector('#clearAll').addEventListener('click',clearAll);
 }
 
 function compute(event){
@@ -24,4 +25,10 @@ function compute(event){
 
 function printResult(){
     document.querySelector('#result').innerText = calcOperations.result;
+}
+
+function clearAll(){
+    document.querySelector('#firstNumber').value = "";
+    document.querySelector('#secondNumber').value = "";
+    document.querySelector('#result').innerText = "";
 }
